@@ -14,7 +14,6 @@ __global__ void addKernel(int *c, const int *a, const int *b)
 
 int main()
 {
-	//COOL
     const int arraySize = 5;
     const int a[arraySize] = { 1, 2, 3, 4, 5 };
     const int b[arraySize] = { 10, 20, 30, 40, 50 };
