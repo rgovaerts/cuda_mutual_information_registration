@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>C:\Program Files %28x86%29\PCL 1.6.0\bin;C:\opencv\build\x86\vc12\bin;$(ExecutablePath)</ExecutablePath>
+    <LibraryPath>C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\Boost\lib;C:\opencv\build\x86\vc12\lib;C:\Program Files %28x86%29\PCL 1.6.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\VTK\include;C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\Qhull\include;C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\FLANN\include;C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\Eigen\include;C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\Boost\include;C:\Program Files %28x86%29\PCL 1.6.0\include;C:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\FLANN\lib;C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\Qhull\lib;C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\VTK\lib;C:\Program Files %28x86%29\PCL 1.6.0\3rdParty\Boost\lib;C:\Program Files %28x86%29\PCL 1.6.0\lib;C:\opencv\build\x86\vc12\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_calib3d2410d.lib;opencv_contrib2410d.lib;opencv_core2410d.lib;opencv_features2d2410d.lib;opencv_flann2410d.lib;opencv_gpu2410d.lib;opencv_highgui2410d.lib;opencv_imgproc2410d.lib;opencv_legacy2410d.lib;opencv_ml2410d.lib;opencv_nonfree2410d.lib;opencv_objdetect2410d.lib;opencv_ocl2410d.lib;opencv_photo2410d.lib;opencv_stitching2410d.lib;opencv_superres2410d.lib;opencv_ts2410d.lib;opencv_video2410d.lib;pcl_apps_debug.lib;pcl_visualization_debug.lib;pcl_surface_debug.lib;pcl_keypoints_debug.lib;pcl_registration_debug.lib;pcl_io_debug.lib;pcl_tracking_debug.lib;pcl_features_debug.lib;pcl_filters_debug.lib;pcl_segmentation_debug.lib;pcl_sample_consensus_debug.lib;pcl_search_debug.lib;pcl_kdtree_debug.lib;pcl_common_debug.lib;pcl_octree_debug.lib;pcl_io_ply_debug.lib;libboost_system-vc100-mt-gd-1_49.lib;libboost_filesystem-vc100-mt-gd-1_49.lib;libboost_thread-vc100-mt-gd-1_49.lib;libboost_date_time-vc100-mt-gd-1_49.lib;libboost_iostreams-vc100-mt-gd-1_49.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

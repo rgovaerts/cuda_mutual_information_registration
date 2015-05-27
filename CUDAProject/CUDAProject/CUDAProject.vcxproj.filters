@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="histrogram64.cu" />
+    <CudaCompile Include="histogram256.cu" />
+    <CudaCompile Include="combine_im.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CUDAProject1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="histogram_common.h" />
+    <ClInclude Include="helper_cuda.h" />
+    <ClInclude Include="helper_string.h" />
+    <ClInclude Include="helper_functions.h" />
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="helper_timer.h" />
+    <ClInclude Include="helper_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="histogram_gold.cpp" />
+  </ItemGroup>
+</Project>
